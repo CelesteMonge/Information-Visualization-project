@@ -14,11 +14,15 @@ I developed this project using Python with libraries such as dash, plotly and pa
 
 #Running the Application
 To run the dashboard locally it is necessary to install required libraries.
+
 pip install dash plotly pandas
+
 Then the following files must be in the same folder:
+
 app.py (main script)
 education_analysis_dataset_clean.csv (clean dataset)
 assets/fondo.jpg (background image)
+
 Finally, launch the server,  open a browser and go to http://127.0.0.1:8050
 The dashboard runs on a local server and does not require deployment to the cloud, which simplifies setup for the presentation and review.
 
